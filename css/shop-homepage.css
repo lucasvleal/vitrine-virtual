@@ -1,0 +1,104 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+/*
+primary color = #fed136; 
+primary color bold = #fec503;
+*/
+
+/* CONTAINER PRODUTOS */
+.description-area {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.title-categoria {
+  font-weight: bold;
+  color: rgba(0,0,0, 0.65);
+}
+
+.description-categoria {
+  padding: 0 15px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+/* ITEM PRODUTO */
+.card {
+  cursor: pointer;
+}
+
+.box-image-card {
+  background-color: #fff;
+  min-width: 255px;
+  min-height: 200px;
+  max-width: 255px;
+  max-height: 200px;
+}
+
+.image-card {
+  min-width: 255px;
+  min-height: 200px;
+  max-width: 255px;
+  max-height: 200px;
+  object-fit: contain !important;
+}
+
+.card:hover{
+  box-shadow: 0 4px 15px 10px rgba(0,0,0, 0.05);
+  /* box-shadow: 7px 7px 0 rgba(0,0,0, 0.45); */
+}
+
+.title-produto {
+  color: black;
+  /* color: rgba(45, 24, 19, 0.8); */
+  font-weight: bold;
+  transition: 0.5s;
+
+}
+
+.title-produto:hover {
+  color: rgba(0,0,0, 0.5);
+  /* color: rgba(45, 24, 19, 1.0); */
+  text-decoration: none;
+  transition: 0.3s;
+  padding-left: 5px;
+}
+
+.card-text {
+  padding: 5px;
+  font-size: 15px;
+}
+
+.card-footer {
+  background-color: rgba(0,0,0, 0.05);
+  border-top: none;
+}
+
+.card-footer:hover {
+  background-color: rgba(254,197,3, 0.5);
+  /* background-color: rgba(254, 178, 92, 0.75);   */
+  font-weight: bold;
+}
+
+.box-sem-produtos {
+  /* margin-top: 50px; */
+  padding: 10% 25%;
+}
+.list-group-flush {
+  margin-bottom: 100px;
+}
+
+.carousel-inner {
+  height: 250px !important;
+}
+
+.image-carousel {
+  object-fit: cover !important;
+}

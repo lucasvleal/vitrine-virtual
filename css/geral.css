@@ -1,0 +1,221 @@
+body {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/*
+primary color = #fed136; 
+primary color bold = #fec503;
+*/
+
+.text-vidaloka {
+    font-family: 'Vidaloka', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.text-montserrat {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.text-kaushan {
+    font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.text-roboto-slab {
+    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.text-playfair {
+    font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.mail-to {
+    transition: 0.5s;
+}
+
+.mail-to:hover {
+    text-decoration: none;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+
+.padding-certo-esq {
+    padding-left: 1.0rem;
+}
+
+.margin-bottom-sm {
+    margin-bottom: 5px;
+}
+
+/* NAVIGATION */
+.navbar {
+    background-color: #383838;
+}
+
+.title-navigation {
+    font-size: 24px;
+    color: #fed136;
+}
+
+.title-navigation:hover {
+    color: #fec503;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: #fec503;
+    /* color: rgb(45, 24, 19); */
+}
+
+.navbar-toggler {
+    right: 0;
+    padding: 7px;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid #fed136; /* #FE9929; */
+    background-color: #FEB25C;
+}
+
+.iconNav {
+    color: #FE9929;
+    /* color: #fed136; */
+    font-size: 20px;
+}
+
+/* FOOTER  */
+.footer {
+    background-color: #383838;
+}
+
+.text-footer {
+    color: #fed136;
+    font-size: 15px;
+}
+
+.text-footer-contato {
+    color: #fed136;
+    font-size: 17px;
+}
+
+.title-footer-contato {
+    font-size: 20px;
+    color: #fed136;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.icon-footer {
+    color: #fed136;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.social-btn {
+    font-size: 25px;
+    margin: 0 5px;
+    color: rgba(0,0,0,0.50);
+}
+
+.social-btn:hover {
+    color: rgba(0,0,0,0.70);
+}
+
+/* MENU LATERAL */
+.menu-lateral{
+    margin-bottom: 30px;
+}
+
+.item-categoria {
+    text-decoration: none;
+    color: rgba(0,0,0, 0.5);
+    transition: 0.5s; 
+}
+  
+.item-categoria:hover {
+    text-decoration: none;
+    color: rgba(0,0,0, 0.5);
+    font-weight: bold;
+    transition: 0.5s;
+    padding-left: 50px;
+}
+
+.logo-menu-lateral {
+    margin: 20px 0;
+    width: 200px;
+    /* height: 200px; */
+}
+
+/* PRODUTOS  */
+.promocao-box {
+    padding-left: 1.25rem;
+}
+
+.promocao-antigo {
+    font-size: 17px;
+    text-decoration: line-through;
+    color: rgba(105, 34, 34, 0.75)
+}
+
+.promocao-atual {
+    margin-right: 5px;
+}
+
+/* MODAL  */
+.modal-title {
+    font-weight: bold;
+    color: rgba(0,0,0, 0.5);
+}
+
+.title-modal-contato {
+    font-size: 20px;
+    color: rgba(0,0,0, 0.85);
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.text-info-modal {
+    color: rgba(0,0,0, 0.85);
+    font-size: 17px;
+}
+
+.icon-modal {
+    color: rgba(0,0,0, 0.85);
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.modal-info-box {
+    margin-left: 20px;
+}
+
+.btn-modal {
+    border: 1.5px solid #fec503;
+    border-radius: 20px;
+    color: #fec503;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+.btn-modal:hover {
+    background-color: #fec503;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+    .btn-modal {
+      width: 100%;
+    }
+
+    .margin-bottom-sm-mobile {
+        margin-bottom: 5px;
+    }
+  }
